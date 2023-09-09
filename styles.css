@@ -2,15 +2,18 @@ html,body{
   margin: 0 !important;
 }
 
-
 .bg_heart {
   position: relative;
   top: 0;
   left: 0;
   width: 100vw;
   height: 100vh;
-  overflow: hidden
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
 
 .heart {
     position: absolute;
@@ -43,6 +46,12 @@ html,body{
     height: 100%;
     background: inherit;
     border-radius: 100%;
+}
+
+.love-text {
+  position: absolute;
+  color: white;
+  font-family: sans-serif;
 }
 
 @-webkit-keyframes love {
